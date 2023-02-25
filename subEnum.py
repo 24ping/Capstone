@@ -2,6 +2,11 @@
 this file is used to enumurate all the subdomains of a domain name horizantanly and vertically  
 the multhread branch is used to test how fast multithreading 
 """
+"""
+now you should create a file that would strore all the results in a file
+you should also optimize the program by decreasing the time it takes to compile it and remove all the variable that consume memomory
+"""
+
 # firstly i am going to enumerate vertically.
 # from dns import resolver
 import dns.resolver
