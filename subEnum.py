@@ -56,7 +56,7 @@ def func(max_cores):
             for valid_d in concurrent.futures.as_completed(valid_domain):
                 results.append(valid_d.result())          
     return results
-
+fileWL.close
 tr_results=  []
 valid_domain = func(128) 
 print(valid_domain)
@@ -66,7 +66,7 @@ valid_domain = list(filter(lambda x: x is not None, valid_domain))
 
 print(valid_domain)
 
-fileWL.close
+
 end_time = time.perf_counter()
 elapsed_time = end_time - start_time
 print("Elapsed time:", elapsed_time, "seconds")
